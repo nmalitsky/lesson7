@@ -2,7 +2,7 @@ For /post (send POST by cURL):
 
  
 
-1. Header **key** is present and **POST BODY** is empty:
+1) Header **key** is present and **POST BODY** is empty:
 
 **Request**:
 
@@ -30,7 +30,7 @@ HTTP/1.1 404 Not Found
 
  
 
-2. header **кey** is missing
+2) Header **кey** is missing
 
 **Request**:
 
@@ -51,7 +51,7 @@ HTTP/1.1 404 Not Found
 
  
 
-3. Header **key** is present and **POST BODY** is present:
+3) Header **key** is present and **POST BODY** is present:
 
 **Request**:
 
